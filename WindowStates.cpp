@@ -36,7 +36,7 @@ bool Draw—lient¿rea(uint32_t UserStatus, HWND MainWindowCreate) {
 		cout << "ƒÓ¯ÎÓ ‰Ó UserStatus_Play"<<endl;
 		uint32_t SnakeField[9][9]{};
 		uint32_t SnakeSize = 1;
-		CreateCustomButton(MainWindowCreate, SizeX_MainWindow / 2 - 100, 300, SizeX_ButtonMainWindow, SizeY_ButtonMainWindow, L"Z", 5);
+		//CreateCustomButton(MainWindowCreate, SizeX_MainWindow / 2 - 100, 300, SizeX_ButtonMainWindow, SizeY_ButtonMainWindow, L"Z", 5);
 		struct Coord {
 			uint32_t X;
 			uint32_t Y;

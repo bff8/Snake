@@ -8,7 +8,7 @@ int SizeX_SpawnMainWindow;
 int SizeY_SpawnMainWindow;
 
 HFONT TextInButton;
-HFONT TextForInscriptionsÊ
+HFONT TextForInscriptions;
 HBRUSH hButtonBrush;
 
 HWND MainWindowCreate;
@@ -90,6 +90,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 		}
 		case UserStatus_Play:{
 			// ‡ÒÚÓÏÌ˚È ÙÓÌ
+
 			Draw—lient¿rea(UserStatus, MainWindowCreate);
 			break;
 		}
@@ -152,8 +153,8 @@ int main() {
 		TranslateMessage(&message);
 		DispatchMessageW(&message);
 	}
-
+	
 	GdiplusShutdown(gdiplusToken);
-
 	return 0;
 }
+//Test commit
