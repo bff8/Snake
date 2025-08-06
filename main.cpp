@@ -90,6 +90,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 		}
 		case UserStatus_Play:{
 			//Кастомный фон
+
 			DrawСlientАrea(UserStatus, MainWindowCreate);
 			break;
 		}
@@ -152,8 +153,8 @@ int main() {
 		TranslateMessage(&message);
 		DispatchMessageW(&message);
 	}
-
+	
 	GdiplusShutdown(gdiplusToken);
-
 	return 0;
 }
+//Test commit
