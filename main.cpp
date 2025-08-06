@@ -8,7 +8,7 @@ int SizeX_SpawnMainWindow;
 int SizeY_SpawnMainWindow;
 
 HFONT TextInButton;
-HFONT TextForInscriptionsæ
+HFONT TextForInscriptions;
 HBRUSH hButtonBrush;
 
 HWND MainWindowCreate;
